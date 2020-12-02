@@ -6,7 +6,7 @@ li {
 nav {
     background-color: rgb(161, 131, 54);
     text-align: center;
-    
+
 }
 .bg_brown {
     background-color: rgba(68, 46, 32, 0.301);
@@ -14,4 +14,8 @@ nav {
 
 .bg_gold {
     background-color: rgb(161, 131, 54);
+}
+
+#Projet_pro {
+    border : 5px rgb(211, 128, 33) groove;
 }
