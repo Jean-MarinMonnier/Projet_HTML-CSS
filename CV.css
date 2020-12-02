@@ -13,6 +13,9 @@ nav {
     text-align: center;
     position: relative;
     font-size: x-large;
+    float: left;
+    color : white;
+    box-shadow: 6px 6px 0px black;
 }
 
 .info_perso {
@@ -20,6 +23,8 @@ nav {
     text-align: left;
     margin-left: 45px;
     font-size: large;
+    
+    
 }
 
 #Projet_pro {
@@ -34,13 +39,62 @@ nav {
 }
 
 
-
-.bg_brown {
-    background-color: rgba(68, 46, 32, 0.301);
+section{
+    position : absolute;
+    left : 470px;
+    width : 1000px;
+    font-size: large;
 }
 
-.bg_gold {
+.bg_brown{
+    background-color: rgb(122, 79, 45);
+    padding : 10px;
+    width: 400px;
+    
+    
+}
+.bg_gold{
     background-color: rgb(161, 131, 54);
+    padding : 10px;
+    width: 400px;
+}
+
+.experience_stage {
+    position: absolute;
+    top : 100px;
+    left :450px;
+    padding : auto;
+
+}
+
+.formation {
+    position: absolute;
+    top :300px;
     
 }
 
+.projet_perso{
+    position: absolute;
+    top :500px;
+
+}
+.langues{
+    position: absolute;
+    top : 700px;
+
+}
+.logiciels{
+    position: absolute;
+    top :900px;
+
+}
+.interets{
+    position: absolute;
+    top: 1100px;
+
+}
+.languages_info{
+    position: absolute;
+    top : 1300px;
+
+}
