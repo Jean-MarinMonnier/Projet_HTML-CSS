@@ -5,17 +5,42 @@ li {
 
 nav {
     background-color: rgb(161, 131, 54);
+    width : 20%;
+    padding-top: 10px;
+    padding-bottom: 500px;
+    padding-left: 30px;
+    padding-right: 30px;
     text-align: center;
-
+    position: relative;
+    font-size: x-large;
 }
+
+.info_perso {
+    position: absolute;
+    text-align: left;
+    margin-left: 45px;
+    font-size: large;
+}
+
+#Projet_pro {
+    border : 5px rgb(211, 128, 33) groove;
+    position: absolute;
+    margin-top: 200px;
+    margin-left : 60px;
+    margin-right: 60px;
+    text-align: center;
+    padding : 10px;
+    font-size: large;
+}
+
+
+
 .bg_brown {
     background-color: rgba(68, 46, 32, 0.301);
 }
 
 .bg_gold {
     background-color: rgb(161, 131, 54);
+    
 }
 
-#Projet_pro {
-    border : 5px rgb(211, 128, 33) groove;
-}
