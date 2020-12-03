@@ -4,10 +4,10 @@ li {
 }
 
 nav {
-    background-color: rgb(161, 131, 54);
+    background-color: rgb(148, 138, 84);
     width : 20%;
     padding-top: 10px;
-    padding-bottom: 500px;
+    padding-bottom: 800px;
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
@@ -16,6 +16,7 @@ nav {
     float: left;
     color : white;
     box-shadow: 6px 6px 0px black;
+    left : 300px;
 }
 
 .info_perso {
@@ -30,7 +31,7 @@ nav {
 #Projet_pro {
     border : 5px rgb(211, 128, 33) groove;
     position: absolute;
-    margin-top: 200px;
+    margin-top: 400px;
     margin-left : 60px;
     margin-right: 60px;
     text-align: center;
@@ -39,32 +40,29 @@ nav {
 }
 
 
-section{
+.section{
     position : absolute;
-    left : 470px;
+    left : 800px;
     width : 1000px;
     font-size: large;
+    font-family: century gothic;
+    background-color: white;
+    
 }
 
-.bg_brown{
-    background-color: rgb(122, 79, 45);
-    padding : 10px;
-    width: 400px;
-    
-    
-}
-.bg_gold{
-    background-color: rgb(161, 131, 54);
-    padding : 10px;
-    width: 400px;
-}
 
 .experience_stage {
     position: absolute;
     top : 100px;
-    left :450px;
+    left :15px ;
     padding : auto;
+    
 
+}
+#list_exp{
+    position: relative;
+    left : 0px;
+    top : 50px;
 }
 
 .formation {
@@ -72,11 +70,18 @@ section{
     top :300px;
     
 }
+#list_formation{
+
+}
 
 .projet_perso{
     position: absolute;
     top :500px;
 
+}
+
+#list_projet_perso{
+    
 }
 .langues{
     position: absolute;
@@ -88,13 +93,48 @@ section{
     top :900px;
 
 }
+#list_logiciels {
+
+}
+
 .interets{
     position: absolute;
     top: 1100px;
+
+}
+#list_interets{
 
 }
 .languages_info{
     position: absolute;
     top : 1300px;
 
+}
+#list_languages_info{
+
+}
+
+.bg_brown{
+    position: absolute;
+    background-color: rgb(74, 69, 42);
+    padding : 10px;
+    width: 400px;
+    color : white;
+    
+    
+}
+.bg_gold{
+    position: absolute;
+    background-color: rgb(148, 138, 84);
+    padding : 10px;
+    width: 400px;
+    color : white;
+}
+
+.bg_top_brown{
+    position: absolute;
+    background-color: rgb(74, 69, 42);
+    padding : 10px;
+    width: 700px;
+    color : white;
 }
